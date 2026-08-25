@@ -579,13 +579,18 @@ layout: default
 <h1 class="closing-title color-[var(--slidev-theme-primary)]! text-6xl!">Thanks</h1>
 
 <div class="mt-8">
-<div class="text-sm opacity-50 mb-3">本 PPT 地址</div>
-<a href="https://tommy-202608.edev.uno" target="_blank" class="text-xl font-semibold color-[var(--slidev-theme-primary)]!">tommy-202608.edev.uno</a>
-</div>
-
-<div class="mt-6">
 <div class="text-sm opacity-50 mb-3">访问招新官网</div>
 <a href="https://myseu.cn" target="_blank" class="text-2xl font-semibold color-[var(--slidev-theme-primary)]!">myseu.cn</a>
+</div>
+
+<div class="mt-5">
+<div class="text-xs opacity-50 mb-2">本 PPT 地址</div>
+<a href="https://tommy-se.edev.uno" target="_blank" class="text-lg font-semibold color-[var(--slidev-theme-primary)]!">tommy-se.edev.uno</a>
+</div>
+
+<div class="mt-4">
+<div class="text-xs opacity-50 mb-2">PPT 源码见</div>
+<a href="https://github.com/elecmonkey/slidev-tommy-se" target="_blank" class="text-lg font-semibold color-[var(--slidev-theme-primary)]!">github.com/elecmonkey/slidev-tommy-se</a>
 </div>
 </div>
 
