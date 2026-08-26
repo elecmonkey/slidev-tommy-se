@@ -33,7 +33,7 @@ duration: 25min
 <div class="flex items-start gap-4 text-[11px] leading-none opacity-80">
 
 <div class="flex flex-col gap-1.5">
-<span class="text-[9px] tracking-[0.16em] opacity-50">PRESENTER</span>
+<span class="text-[9px] tracking-[0.16em] opacity-70 font-semibold">PRESENTER</span>
 <div class="flex items-center gap-1.5 pr-3 rounded-full bg-white/50 ring-1 ring-gray-300/40">
 <img src="/avatar/yuanzihan.jpg" class="w-5 h-5 rounded-full object-cover block" />
 <span>袁梓涵</span>
@@ -42,7 +42,25 @@ duration: 25min
 </div>
 
 <div class="flex flex-col gap-1.5">
-<span class="text-[9px] tracking-[0.16em] opacity-50">SLIDES</span>
+<span class="text-[9px] tracking-[0.16em] opacity-0">PRESENTER</span>
+<div class="flex items-center gap-1.5 pr-3 rounded-full bg-white/50 ring-1 ring-gray-300/40">
+<img src="/avatar/isy.jpg" class="w-5 h-5 rounded-full object-cover block" />
+<span>李承恩</span>
+<span class="opacity-40">Isy</span>
+</div>
+</div>
+
+<div class="flex flex-col gap-1.5">
+<span class="text-[9px] tracking-[0.16em] opacity-0">PRESENTER</span>
+<div class="flex items-center gap-1.5 pr-3 rounded-full bg-white/50 ring-1 ring-gray-300/40">
+<img src="/avatar/shiyudesu.jpg" class="w-5 h-5 rounded-full object-cover block" />
+<span>张宸铭</span>
+<span class="opacity-40">shiyudesu</span>
+</div>
+</div>
+
+<div class="flex flex-col gap-1.5">
+<span class="text-[9px] tracking-[0.16em] opacity-70 font-semibold">SLIDES</span>
 <div class="flex items-center gap-1.5 pr-3 rounded-full bg-white/50 ring-1 ring-gray-300/40">
 <img src="/avatar/elecmonkey.jpg" class="w-5 h-5 rounded-full object-cover block" />
 <span>李厚之</span>
