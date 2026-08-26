@@ -383,21 +383,209 @@ layout: two-cols-header
 
 # AI 确实很好用
 
+::left::
+
+<div class="text-xs opacity-50 mb-3">现在的 AI 能承担的软件开发工作</div>
+
+<div v-click class="grid grid-cols-2 gap-2">
+
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">编写 CRUD</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">编写前端组件</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">生成 SQL</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">补充测试</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">解释代码</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">查询 API</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">代码迁移</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">重构</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">定位 Bug</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">编写脚本</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm text-center">补充文档</div>
+<div class="px-3 py-2 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25 text-sm text-center font-medium">根据需求完成相对完整的功能</div>
+
+</div>
+
+<div v-click class="mt-4 text-xs opacity-60">它已经不只是简单的代码补全工具</div>
+
+::right::
+
+<div class="pl-4">
+
+<div v-click class="mb-4 text-sm opacity-75">AI 带来的变化，不只是"代码写得更快"，更重要的是：</div>
+
+<div v-click class="p-4 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25 text-center font-bold mb-5">
+AI 放大了一个人的并行工作能力
+</div>
+
+<div class="text-xs opacity-50 mb-2">以前一次主要处理一件事，现在可以同时让 AI 做多项工作：</div>
+
+<v-clicks>
+
+<div class="flex items-center gap-2 mb-2">
+<div class="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
+<span class="text-sm">一个 AI 帮忙分析 Bug</span>
+</div>
+
+<div class="flex items-center gap-2 mb-2">
+<div class="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
+<span class="text-sm">一个 AI 帮忙查某个框架</span>
+</div>
+
+<div class="flex items-center gap-2 mb-2">
+<div class="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
+<span class="text-sm">一个 AI 帮忙补测试</span>
+</div>
+
+<div class="flex items-center gap-2 mb-4">
+<div class="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
+<span class="text-sm">自己同时思考整体设计和后续安排</span>
+</div>
+
+</v-clicks>
+
+<div v-click class="p-3 rounded-lg bg-teal-50 border border-teal-200 text-center text-sm font-medium">
+AI 已经不只是代码补全工具，而是在逐渐成为软件工程师的协作者
+</div>
+
+</div>
+
 ---
 layout: default
 ---
 
-# AI 写完代码以后
+# Vibe Coding 之后
+
+<div class="text-sm opacity-70 mt-2 mb-5">只说一句"增加一个删除用户功能"，AI 很快就能给出代码——故事其实才刚开始。</div>
+
+<div class="grid grid-cols-2 gap-2">
+
+<v-clicks>
+
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">物理删除还是逻辑删除？</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">关联数据怎么处理？</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">要不要支持恢复？</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">有没有权限问题？</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">并发操作怎么处理？</div>
+<div class="px-3 py-2 rounded-lg bg-gray-50 text-sm">前端要不要二次确认？</div>
+
+</v-clicks>
+
+</div>
+
+<div v-click class="mt-5 p-3 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25 text-center text-sm font-medium">
+这些约束、风险和隐含条件，才是工程真正要处理的部分
+</div>
+
+<div v-click class="mt-4 text-center text-sm opacity-75">
+代码能看懂、能测试、能定位问题，就可以放心用；<br/>
+说不清它为什么这么写、只知道"能跑"，控制权就已经不在自己手里了
+</div>
 
 ---
 
 # 在 AI Agent 帮助下提升
+
+<div class="text-sm opacity-70 mt-2 mb-5">AI 越强，这几项能力反而越重要。</div>
+
+<div class="grid grid-cols-2 gap-3">
+
+<div v-click class="p-3 rounded-lg border border-gray-200 bg-white/65">
+<div class="text-xs font-bold color-[var(--slidev-theme-primary)]! mb-1">01 · 基础知识</div>
+<div class="text-xs opacity-75">数据结构、数据库、网络、操作系统，决定你能不能判断 AI 给出的结果是否合理。</div>
+</div>
+
+<div v-click class="p-3 rounded-lg border border-gray-200 bg-white/65">
+<div class="text-xs font-bold color-[var(--slidev-theme-primary)]! mb-1">02 · 问题拆解</div>
+<div class="text-xs opacity-75">把复杂任务拆成清楚的小任务，给 AI 足够的上下文和验收标准。</div>
+</div>
+
+<div v-click class="p-3 rounded-lg border border-gray-200 bg-white/65">
+<div class="text-xs font-bold color-[var(--slidev-theme-primary)]! mb-1">03 · 工程判断</div>
+<div class="text-xs opacity-75">几个方案都能跑通的时候，看得出哪个才真正适合当前项目。</div>
+</div>
+
+<div v-click class="p-3 rounded-lg border border-gray-200 bg-white/65">
+<div class="text-xs font-bold color-[var(--slidev-theme-primary)]! mb-1">04 · 验证与 Debug</div>
+<div class="text-xs opacity-75">看日志、写测试、定位问题，分清楚"能跑"和"真的对"。</div>
+</div>
+
+<div v-click class="p-3 rounded-lg border-2 border-[#13acd9] bg-[#13acd9]/5 col-span-2">
+<div class="text-xs font-bold color-[var(--slidev-theme-primary)]! mb-1">05 · 全局意识</div>
+<div class="text-xs opacity-75">除了眼前这一个函数或页面，也想着数据、接口、权限、性能和后续维护。</div>
+</div>
+
+</div>
+
+<div v-click class="mt-5 text-center text-sm font-medium">
+从"会写代码"走向"真正的软件工程师"，靠的就是这些能力一点点攒出来的
+</div>
 
 ---
 layout: two-cols-header
 ---
 
 # 如何用好 AI 工具
+
+::left::
+
+<div class="text-xs opacity-50 mb-2">拆好任务，再交给 AI</div>
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div v-click class="p-3 rounded-lg border border-gray-200">
+<div class="text-sm font-bold mb-1">"帮我把头像功能完善一下"</div>
+<div class="text-xs opacity-60">AI 只能自己猜边界，猜错了改起来更麻烦</div>
+</div>
+
+<div v-click class="p-3 rounded-lg border-2 border-[#13acd9] bg-[#13acd9]/5">
+<div class="text-sm font-bold mb-2">先拆成任务节点，再交给 AI</div>
+<div class="text-xs opacity-75 leading-relaxed">
+① 上传接口 ② 文件存储 ③ 数据库保存地址<br/>
+④ 前端展示 ⑤ 异常处理
+</div>
+</div>
+
+</div>
+
+<div v-click class="mt-4 text-sm text-center font-medium">
+人维护任务树，AI 执行任务节点
+</div>
+
+::right::
+
+<div class="pl-4">
+
+<div class="text-xs opacity-50 mb-3">AI 写完代码以后</div>
+
+<v-clicks>
+
+<div class="flex items-center gap-2 mb-2.5">
+<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">读</div>
+<span class="text-sm opacity-80">看懂它改了哪些文件、核心逻辑是什么</span>
+</div>
+
+<div class="flex items-center gap-2 mb-2.5">
+<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">问</div>
+<span class="text-sm opacity-80">让它反过来做一次 Code Review，找风险和遗漏</span>
+</div>
+
+<div class="flex items-center gap-2 mb-2.5">
+<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">测</div>
+<span class="text-sm opacity-80">不只测正常情况，也测空数据、异常和并发</span>
+</div>
+
+<div class="flex items-center gap-2 mb-2.5">
+<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">集成</div>
+<span class="text-sm opacity-80">检查有没有影响其他模块、破坏旧接口</span>
+</div>
+
+<div class="flex items-center gap-2">
+<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">维护</div>
+<span class="text-sm opacity-80">三个月后有没有人还能看懂、能不能快速回滚</span>
+</div>
+
+</v-clicks>
+
+</div>
 
 ---
 
