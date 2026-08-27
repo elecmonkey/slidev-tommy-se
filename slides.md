@@ -229,7 +229,7 @@ layout: default
 
 # 课堂代码和真实开发，差在哪？
 
-<div class="text-sm opacity-60 mt-1 mb-12">起点看起来差不都</div>
+<div class="text-sm opacity-60 mt-1 mb-12">起点看起来差不多</div>
 
 <div v-click>
 
@@ -266,7 +266,7 @@ layout: default
 </div>
 
 <div v-click class="mt-14 text-center text-base font-medium">
-作者交完就算结束，生产环境的折磨往往从上线那天才真正开始
+作业交完就算结束，生产环境的折磨往往从上线那天才真正开始
 </div>
 
 ---
@@ -439,114 +439,44 @@ layout: default
 
 ---
 
-# 在 AI Agent 帮助下提升
+# 全自动 Vibe Coding 里，你能做什么
 
-<div class="text-sm opacity-70 mt-2 mb-5">用 AI 的时候，别把方向盘也交出去。</div>
+<div class="text-sm opacity-70 mt-2 mb-6">课程作业让 AI 全自动写完不难，难的是自己有没有真的学到东西</div>
 
-<div class="grid grid-cols-1 gap-3 mt-2">
+<div class="grid grid-cols-2 gap-6">
 
-<div class="flex items-center gap-4 p-3 rounded-lg bg-gray-50">
-<div class="font-bold text-xl w-8 color-[var(--slidev-theme-primary)]!">01</div>
 <div>
-<span class="font-bold">先想清楚，再去问</span>
-<span class="opacity-70 text-sm"> —— 心里先有个大概方案，再看 AI 给出的哪里不一样</span>
+<div class="text-xs font-bold opacity-45 tracking-wide mb-3">方向自己把关</div>
+
+<div class="p-3 rounded-lg bg-gray-50 mb-3">
+<div class="text-sm font-bold mb-1">让 AI 摊开几种方案</div>
+<div class="text-xs opacity-65">利弊讲清楚，最终选哪个架构，自己拍板</div>
+</div>
+
+<div class="p-3 rounded-lg bg-gray-50">
+<div class="text-sm font-bold mb-1">全程盯住大方向</div>
+<div class="text-xs opacity-65">AI 埋头写代码时，自己清楚整体设计往哪走</div>
 </div>
 </div>
 
-<div class="flex items-center gap-4 p-3 rounded-lg bg-gray-50">
-<div class="font-bold text-xl w-8 color-[var(--slidev-theme-primary)]!">02</div>
 <div>
-<span class="font-bold">让 AI 也做一次审阅者</span>
-<span class="opacity-70 text-sm"> —— 代码写完之后，反过来让它挑挑毛病</span>
-</div>
+<div class="text-xs font-bold opacity-45 tracking-wide mb-3">重点内容要过目</div>
+
+<div class="p-3 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25 mb-3">
+<div class="text-sm font-bold mb-1 color-[var(--slidev-theme-primary)]!">核心数据结构与算法</div>
+<div class="text-xs opacity-70">自己读一遍，搞懂它为什么这么设计</div>
 </div>
 
-<div class="flex items-center gap-4 p-3 rounded-lg bg-gray-50">
-<div class="font-bold text-xl w-8 color-[var(--slidev-theme-primary)]!">03</div>
-<div>
-<span class="font-bold">别被它的"下一步建议"牵着走</span>
-<span class="opacity-70 text-sm"> —— 时刻记得自己真正要解决的问题是什么</span>
-</div>
-</div>
-
-<div class="flex items-center gap-4 p-3 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25">
-<div class="font-bold text-xl w-8 color-[var(--slidev-theme-primary)]!">04</div>
-<div>
-<span class="font-bold">该动手时，自己动手</span>
-<span class="opacity-70 text-sm"> —— 哪怕改动很小，也保持对代码的手感</span>
+<div class="p-3 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25">
+<div class="text-sm font-bold mb-1 color-[var(--slidev-theme-primary)]!">关键接口与协议</div>
+<div class="text-xs opacity-70">看懂它定成这样的原因，而不是能跑就过</div>
 </div>
 </div>
 
 </div>
 
-<div class="mt-6 text-center text-sm font-medium">
-AI 负责执行，方向和判断始终握在自己手里
-</div>
-
----
-layout: two-cols-header
----
-
-# 如何用好 AI 工具
-
-::left::
-
-<div class="text-xs opacity-50 mb-2">拆好任务，再交给 AI</div>
-
-<div class="grid grid-cols-1 gap-2 mt-2">
-
-<div class="p-3 rounded-lg border border-gray-200">
-<div class="text-sm font-bold mb-1">"帮我把头像功能完善一下"</div>
-<div class="text-xs opacity-60">AI 只能自己猜边界，猜错了改起来更麻烦</div>
-</div>
-
-<div class="p-3 rounded-lg border-2 border-[#13acd9] bg-[#13acd9]/5">
-<div class="text-sm font-bold mb-2">先拆成任务节点，再交给 AI</div>
-<div class="text-xs opacity-75 leading-relaxed">
-① 上传接口 ② 文件存储 ③ 数据库保存地址<br/>
-④ 前端展示 ⑤ 异常处理
-</div>
-</div>
-
-</div>
-
-<div class="mt-4 text-sm text-center font-medium">
-人维护任务树，AI 执行任务节点
-</div>
-
-::right::
-
-<div class="pl-4">
-
-<div class="text-xs opacity-50 mb-3">AI 写完代码以后</div>
-
-
-<div class="flex items-center gap-2 mb-2.5">
-<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">读</div>
-<span class="text-sm opacity-80">看懂它改了哪些文件、核心逻辑是什么</span>
-</div>
-
-<div class="flex items-center gap-2 mb-2.5">
-<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">问</div>
-<span class="text-sm opacity-80">让它反过来做一次 Code Review，找风险和遗漏</span>
-</div>
-
-<div class="flex items-center gap-2 mb-2.5">
-<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">测</div>
-<span class="text-sm opacity-80">不只测正常情况，也测空数据、异常和并发</span>
-</div>
-
-<div class="flex items-center gap-2 mb-2.5">
-<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">集成</div>
-<span class="text-sm opacity-80">检查有没有影响其他模块、破坏旧接口</span>
-</div>
-
-<div class="flex items-center gap-2">
-<div class="w-6 text-center font-bold text-sm color-[var(--slidev-theme-primary)]!">维护</div>
-<span class="text-sm opacity-80">三个月后有没有人还能看懂、能不能快速回滚</span>
-</div>
-
-
+<div class="mt-8 text-center text-sm font-medium">
+借这个过程，把架构设计和工程治理的理解真正攒在自己身上
 </div>
 
 ---
@@ -706,8 +636,6 @@ layout: default
 
 <div class="relative h-[370px] mt-2">
 
-<div class="absolute right-2 top-1 text-xs tracking-widest opacity-40">技术 · 项目 · 实习 · 工作</div>
-
 <svg class="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 900 370" aria-hidden="true">
   <path d="M430 175 C505 120, 535 225, 610 180" fill="none" stroke="var(--slidev-theme-primary)" stroke-width="2" stroke-dasharray="7 9" opacity="0.32" />
   <circle cx="444" cy="166" r="5" fill="var(--slidev-theme-primary)" opacity="0.32" />
@@ -730,6 +658,7 @@ layout: default
 <div class="text-sm leading-relaxed opacity-65">
 一起做项目、参加分享，平时也会交换想法、互相帮忙。
 </div>
+<div class="mt-3 text-xs tracking-widest opacity-40">技术 · 项目 · 实习 · 工作</div>
 </div>
 
 <div class="absolute right-10 bottom-2 w-3 h-3 rounded-full bg-amber-300 opacity-70"></div>
@@ -756,10 +685,11 @@ layout: default
 <a href="https://tommy-se.edev.uno" target="_blank" class="text-lg font-semibold color-[var(--slidev-theme-primary)]!">tommy-se.edev.uno</a>
 </div>
 
-<div class="mt-4">
+<!-- <div class="mt-4">
 <div class="text-xs opacity-50 mb-2">PPT 源码见</div>
 <a href="https://github.com/elecmonkey/slidev-tommy-se" target="_blank" class="text-lg font-semibold color-[var(--slidev-theme-primary)]!">github.com/elecmonkey/slidev-tommy-se</a>
-</div>
+</div> -->
+
 </div>
 
 <div class="text-center">
