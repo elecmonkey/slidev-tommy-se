@@ -190,47 +190,6 @@ layout: default
 </div>
 
 ---
-
-# 项目是一版一版改出来的
-
-<div class="mt-5 text-sm opacity-65">
-技术方案、代码和上线后的运行情况，都要根据真实使用继续调整。
-</div>
-
-<div class="mt-6">
-
-```mermaid {scale: 0.62}
-graph LR
-  V0["最初版本<br/>只有一个核心功能<br/>界面很糙"] --> V1["能用起来<br/>补齐主流程<br/>修一堆 Bug"]
-  V1 --> V2["有人真的在用<br/>性能 · 稳定性<br/>开始被追着提需求"]
-  V2 --> V3["重构 / 换方案<br/>补文档和测试<br/>交接给下一届"]
-```
-
-</div>
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-
-<div v-click class="p-4 rounded-lg bg-gray-50">
-
-**第一版只做了最核心的功能**
-
-很多细节还没处理，
-先拿来测试，再根据问题继续改。
-
-</div>
-
-<div v-click class="p-4 rounded-lg bg-gray-50">
-
-**后面的版本逐步补齐**
-
-功能、性能、文档和交接，
-都是在使用过程中加进去的。
-
-</div>
-
-</div>
-
----
 layout: default
 ---
 
@@ -263,14 +222,14 @@ layout: default
 </div>
 
 <div v-click class="mt-6 text-center text-sm opacity-60">
-课上很少讲这些，大多要自己经历一次才会真正记住
+大多要自己经历一次才会真正记住
 </div>
 
 ---
 
 # 课堂代码和真实开发，差在哪？
 
-<div class="text-sm opacity-60 mt-1 mb-12">起点差不多，但终点完全不是一回事</div>
+<div class="text-sm opacity-60 mt-1 mb-12">起点看起来差不都</div>
 
 <div v-click>
 
@@ -307,7 +266,7 @@ layout: default
 </div>
 
 <div v-click class="mt-14 text-center text-base font-medium">
-一个交完就算结束，一个从上线那天才真正开始
+作者交完就算结束，生产环境的折磨往往从上线那天才真正开始
 </div>
 
 ---
@@ -318,13 +277,13 @@ layout: default
 
 <div class="relative h-[400px] mt-12">
 
-<div v-click class="absolute left-[8%] top-2 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-3.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 6%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 26%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 68%, white)">
+<div v-click class="absolute left-[8%] top-2 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-3.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 6%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 26%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 68%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-68">01</div>
 <div class="text-2xl font-bold mb-4">数据结构与算法</div>
 <div class="text-base leading-relaxed opacity-75">数据结构决定数据怎样组织和访问。算法训练让你能判断时间和空间开销，遇到性能问题时知道从哪里查。</div>
 </div>
 
-<div v-click class="absolute right-[8%] top-8 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(3deg); background: color-mix(in srgb, var(--slidev-theme-primary) 11%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 36%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 85%, white)">
+<div v-click class="absolute right-[8%] top-8 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(3deg); background: color-mix(in srgb, var(--slidev-theme-primary) 11%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 36%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 85%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-85">02</div>
 <div class="text-2xl font-bold mb-4">软件工程导论</div>
 <div class="text-base leading-relaxed opacity-75">课程会讲需求、设计、测试、版本管理和协作流程。团队项目做久了，就会知道这些步骤分别在解决什么问题。</div>
@@ -340,13 +299,13 @@ layout: default
 
 <div class="relative h-[400px] mt-12">
 
-<div v-click class="absolute left-[8%] top-6 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(3.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 8%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 30%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 75%, white)">
+<div v-click class="absolute left-[8%] top-6 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(3.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 8%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 30%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 75%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-75">03</div>
 <div class="text-2xl font-bold mb-4">操作系统</div>
 <div class="text-base leading-relaxed opacity-75">程序最后都要交给操作系统运行。进程、线程、内存和 I/O，是排查并发、资源占用和性能问题的基础。</div>
 </div>
 
-<div v-click class="absolute right-[8%] top-2 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-3deg); background: color-mix(in srgb, var(--slidev-theme-primary) 12%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 38%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 88%, white)">
+<div v-click class="absolute right-[8%] top-2 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-3deg); background: color-mix(in srgb, var(--slidev-theme-primary) 12%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 38%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 88%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-88">04</div>
 <div class="text-2xl font-bold mb-4">计算机网络</div>
 <div class="text-base leading-relaxed opacity-75">请求怎样从浏览器到服务器，连接为什么超时，代理和 HTTPS 在做什么。前后端联调、部署和线上排查都会用到。</div>
@@ -362,13 +321,13 @@ layout: default
 
 <div class="relative h-[400px] mt-12">
 
-<div v-click class="absolute left-[8%] top-2 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-4deg); background: color-mix(in srgb, var(--slidev-theme-primary) 5%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 24%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 65%, white)">
+<div v-click class="absolute left-[8%] top-2 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(-4deg); background: color-mix(in srgb, var(--slidev-theme-primary) 5%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 24%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 65%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-65">05</div>
 <div class="text-2xl font-bold mb-4">数据库</div>
 <div class="text-base leading-relaxed opacity-75">表结构、索引和事务决定数据能否存对、查快。数据量和并发上来后，早期设计的问题会很快暴露。</div>
 </div>
 
-<div v-click class="absolute right-[8%] top-6 w-[42%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(2.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 9%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 32%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 78%, white)">
+<div v-click class="absolute right-[8%] top-6 w-[38%] min-h-[290px] p-6 rounded-xl border border-t-4 shadow-md" style="transform: rotate(2.5deg); background: color-mix(in srgb, var(--slidev-theme-primary) 9%, white); border-color: color-mix(in srgb, var(--slidev-theme-primary) 32%, white); border-top-color: color-mix(in srgb, var(--slidev-theme-primary) 78%, white)">
 <div class="text-sm font-bold mb-3 color-[var(--slidev-theme-primary)]! opacity-78">06</div>
 <div class="text-2xl font-bold mb-4">编译原理</div>
 <div class="text-base leading-relaxed opacity-75">普通业务开发很少直接用到，准备一直写常规业务代码，60 分及格就够。想做语言、工具链或编辑器，它是很重要的基础，这些方向也更难被 AI 替代。</div>
@@ -403,13 +362,11 @@ layout: two-cols-header
 
 </div>
 
-<div class="mt-4 text-xs opacity-60">它已经不只是简单的代码补全工具</div>
+<div class="mt-4 text-xs opacity-60">它已经不只是简单的代码补全工具，前沿的模型与 Coding Agent 已经具备极强的调研、方案设计、端到端交付能力。</div>
 
 ::right::
 
 <div class="pl-4">
-
-<div class="mb-4 text-sm opacity-75">AI 带来的变化，不只是"代码写得更快"，更重要的是：</div>
 
 <div class="p-4 rounded-lg bg-[#13acd9]/8 border border-[#13acd9]/25 text-center font-bold mb-5">
 AI 放大了一个人的并行工作能力
@@ -441,6 +398,10 @@ AI 放大了一个人的并行工作能力
 
 <div class="p-3 rounded-lg bg-teal-50 border border-teal-200 text-center text-sm font-medium">
 AI 已经不只是代码补全工具，而是在逐渐成为软件工程师的协作者
+</div>
+
+<div v-click class="mt-4 p-3 rounded-lg bg-amber-50 border border-amber-200 text-xs leading-relaxed">
+这一切和模型能力关系巨大 —— 不同工具 Vibe Coding 体验可能天差地别。建议大家关注前沿的模型和 Coding Agent。
 </div>
 
 </div>
