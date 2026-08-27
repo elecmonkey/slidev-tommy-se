@@ -693,7 +693,7 @@ layout: default
 </div>
 
 <div class="text-center">
-<img src="/qq-group.jpg" class="w-56 mx-auto rounded-lg border border-gray-200" />
+<img src="/qq-group-2b96610e.jpg" class="w-56 mx-auto rounded-lg border border-gray-200" />
 <div class="mt-3 text-sm opacity-70">扫码加入招新 QQ 群</div>
 </div>
 
